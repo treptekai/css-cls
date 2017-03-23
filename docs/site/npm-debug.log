@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Programs\\nodejs\\node.exe',
+1 verbose cli   'D:\\Programs\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'broswer-sync',
+1 verbose cli   'start',
+1 verbose cli   '--server',
+1 verbose cli   '--directory',
+1 verbose cli   '--files',
+1 verbose cli   '*' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose stack Error: missing script: broswer-sync
+4 verbose stack     at run (D:\Programs\nodejs\node_modules\npm\lib\run-script.js:151:19)
+4 verbose stack     at D:\Programs\nodejs\node_modules\npm\lib\run-script.js:61:5
+4 verbose stack     at D:\Programs\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (D:\Programs\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:320:45)
+4 verbose stack     at final (D:\Programs\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:354:3)
+4 verbose stack     at then (D:\Programs\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:124:5)
+4 verbose stack     at ReadFileContext.<anonymous> (D:\Programs\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:295:20)
+4 verbose stack     at ReadFileContext.callback (D:\Programs\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16)
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:365:13)
+5 verbose cwd D:\data\work\csr-html\css-cls\docs\site
+6 error Windows_NT 10.0.14393
+7 error argv "D:\\Programs\\nodejs\\node.exe" "D:\\Programs\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "broswer-sync" "start" "--server" "--directory" "--files" "*"
+8 error node v6.10.0
+9 error npm  v3.10.10
+10 error missing script: broswer-sync
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
